@@ -1,4 +1,4 @@
-# FineTuningLLMs
+# FineTuning & Serving LLMs
 
 
 Neural Networks and Deep Learning
@@ -17,13 +17,7 @@ How to finetune a LLM
 
 Preparing finetuning Dataset
 
-Some concepts to understand before we fine-tune any LLM -
-
-Quantization
-
-Types of Quantization Post-training Quantization (PTQ) GPTQ, AWQ are classified as PTQ
-
-Quantization-aware training (QAT) QLoRA is classified as QAT
+Some concepts to understand before we fine-tune and serve any LLM -
 
 Supervised Fine-Tuning (SFT) LoRA QLoRA
 
@@ -31,11 +25,19 @@ Reinforcement Learning from Human Feedback(RLHF) PPO DPO
 
 Parameter Efficient Finetuning LoRA QLoRA Adaptors Prompt Tuning Prefix Tuning
 
+Quantization
+
+Types of Quantization Post-training Quantization (PTQ) GPTQ, AWQ are classified as PTQ
+
+Quantization-aware training (QAT) QLoRA is classified as QAT
+
 Compute and Memory requirements
 
 Training Arguments
 
 Training
+
+Serving the model
 
 Conclusions
 

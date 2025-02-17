@@ -31,6 +31,8 @@ Types of Quantization Post-training Quantization (PTQ) GPTQ, AWQ are classified 
 
 Quantization-aware training (QAT) QLoRA is classified as QAT
 
+GGUF(GGML)
+
 Compute and Memory requirements
 
 Training Arguments

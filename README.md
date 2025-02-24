@@ -1,5 +1,8 @@
+![image](https://github.com/user-attachments/assets/73c37a06-2f75-4bc2-a8b2-ede4f35595ec)
+
+
 ## Neural Networks and Deep Learning
-Please refer below articlae for detailed an explanation of neural networks and deep learning -
+Please refer below article for detailed an explanation of neural networks and deep learning -
 https://github.com/maneeshavinayak/A-simple-explanation-of-Neural-Networks
 
 ## Transformers and Attention Mechanism

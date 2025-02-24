@@ -9,6 +9,16 @@ https://github.com/maneeshavinayak/A-simple-explanation-of-Neural-Networks
 ## Large Language Models
 
 ## Compute and Memory requirements to load and inference from a model
+* M = [(P*4B)/(32/Q)]*1.2
+* that is, Memory = [(no-of-parameters * 4B)/(32/no-of-bits)] * 1.2
+
+* M = GPU Memory in Gigabytes, P = Number of parameters in the model, 4B = 4 bytes per parameters (since most models use FP32 or FP16 precision), Q = Number of bits for loading the model (16-bit for FP16, 8 bit for quantized models), 1.2 is the additional 20% memory overhead.
+
+* Example1: Memory required to host a Llama2 7B parameter model in 16-bit (FP16 precision): 
+M = [(7*4)/(32/16)]*1.2 = 16.8 GB
+
+* Example2: Memory required to host a Llama2 7B parameter model in 8-bits (quantized version): 
+M = [(7*4/(32/8)]*1.2 = 8.4 GB
 
 ## Compute and memory requirements to train a model
 
